@@ -1,2 +1,0 @@
-# srishasarapowersolutions
-srishasarapowertech solutions web
