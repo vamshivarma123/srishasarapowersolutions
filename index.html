@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Srishasara PowerTech Solutions - Industrial generator installation, power backup, and electrical infrastructure for factories, hospitals, and offices.">
+  <title>Srishasara PowerTech Solutions | Reliable Industrial Power</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=5">
+</head>
+<body class="page-home">
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__icon">
+          <img src="asserts/logo1.png" alt="Srishasara PowerTech Solutions logo" class="logo__img">
+        </span>
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link active">Home</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="projects.html" class="nav__link">Projects</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="tel:+919908095558" class="btn btn--sm btn--outline header__cta">Call Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <canvas class="hero__grid" id="powerGrid" aria-hidden="true"></canvas>
+      <div class="hero__particles" id="heroParticles" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--1" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--2" aria-hidden="true"></div>
+      <div class="hero__visual parallax-layer" data-speed="0.15" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac71?w=1200&q=80" alt="" class="hero__img">
+        <div class="hero__energy-ring"></div>
+      </div>
+      <div class="hero__machine" aria-hidden="true">
+        <svg viewBox="0 0 160 160" class="generator-svg" aria-hidden="true">
+          <rect x="28" y="44" width="104" height="72" rx="18" fill="rgba(0,229,255,0.08)" stroke="rgba(0,229,255,0.45)" stroke-width="2"/>
+          <rect x="36" y="36" width="88" height="88" rx="14" fill="rgba(37,99,235,0.06)" stroke="rgba(37,99,235,0.24)" stroke-width="2"/>
+          <g class="generator-rotor">
+            <circle cx="80" cy="80" r="26" fill="rgba(0,229,255,0.16)" stroke="var(--cyan)" stroke-width="3"/>
+            <path d="M80 50 L80 30 M80 130 L80 110 M50 80 L30 80 M130 80 L110 80 M60 60 L44 44 M100 60 L116 44 M60 100 L44 116 M100 100 L116 116" stroke="var(--cyan)" stroke-width="3" stroke-linecap="round"/>
+          </g>
+          <path d="M24 88 H136" stroke="rgba(0,229,255,0.2)" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="52" cy="80" r="6" fill="var(--electric)"/>
+          <circle cx="108" cy="80" r="6" fill="var(--electric)"/>
+          <path d="M50 108 C60 118, 100 118, 110 108" stroke="rgba(37,99,235,0.6)" stroke-width="4" fill="none"/>
+        </svg>
+      </div>
+      <div class="container hero__content">
+        <div class="hero__badge">Industrial Power Infrastructure</div>
+        <h1 class="hero__title">
+          <span class="line">Reliable Power Solutions</span>
+          <span class="line gradient-text">for Modern Industries</span>
+        </h1>
+        <p class="hero__subtitle">
+          Expert generator installation, backup systems, and end-to-end electrical infrastructure for factories, hospitals, offices, and industrial facilities.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Get Quote</a>
+          <a href="https://wa.me/919908095558?text=Hi%20Srishasara%20PowerTech%2C%20I%20need%20a%20power%20solution%20quote." class="btn btn--whatsapp" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.89-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp Us
+          </a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat-pill"><strong data-count="500">0</strong><span>Projects</span></div>
+          <div class="stat-pill"><strong data-count="15">0</strong><span>Years</span></div>
+          <div class="stat-pill"><strong>24/7</strong><span>Support</span></div>
+        </div>
+      </div>
+      <a href="#client-work" class="scroll-indicator" aria-label="Scroll to client work">
+        <span class="scroll-indicator__text">Explore</span>
+        <span class="scroll-indicator__line"></span>
+      </a>
+    </section>
+
+    <!-- Client Work (on home) -->
+    <section class="section section--client-work" id="client-work">
+      <div class="section__grid-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section__header reveal-up">
+          <span class="section__label">Our Work</span>
+          <h2 class="section__title">Client <span class="gradient-text">Projects</span></h2>
+          <p class="section__desc">Trusted power infrastructure delivered across industries - from factory backup systems to hospital critical power.</p>
+        </div>
+        <div class="projects-preview">
+          <article class="project-card reveal-up">
+            <div class="project-card__media">
+              <img src="../asserts/genarator.png" alt="Factory generator installation" loading="lazy">
+              <span class="project-card__tag">Factory</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Manufacturing Plant Backup</h3>
+              <p>500 KVA diesel generator installation with automatic transfer switch and load management.</p>
+              <a href="projects.html" class="link-arrow">View all projects</a>
+            </div>
+          </article>
+          <article class="project-card reveal-up">
+            <div class="project-card__media">
+              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80" alt="Hospital power infrastructure" loading="lazy">
+              <span class="project-card__tag">Hospital</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Hospital Critical Power</h3>
+              <p>Redundant UPS and generator systems ensuring uninterrupted ICU and OT operations.</p>
+              <a href="projects.html" class="link-arrow">View all projects</a>
+            </div>
+          </article>
+          <ul class="contact-details">
+            <li>
+              <span class="contact-details__icon contact-details__icon--phone" aria-hidden="true"></span>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:+919908095558">+91 99080 95558</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-details__icon contact-details__icon--email" aria-hidden="true"></span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:srisahasrapowertechsolutions@outlook.com">srisahasrapowertechsolutions@outlook.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-details__icon contact-details__icon--location" aria-hidden="true"></span>
+              <div>
+                <strong>Location</strong>
+                <span>17°26'24.6"N 78°26'12.0"E</span>
+              </div>
+            </li>
+          </ul>
+            <span class="counter-item__label">Years Experience</span>
+          </div>
+        </div>
+        <div class="section__cta reveal-up">
+          <a href="projects.html" class="btn btn--primary">Explore Full Portfolio</a>
+        </div>
+      </div>
+    </section>
+    </section>
+
+    <!-- Clients band (full width) -->
+    <section class="clients-band" aria-label="Trusted clients">
+      <div class="clients-band__inner">
+        <div class="clients-band__label">Trusted by industry leaders</div>
+        <div class="clients-band__track" role="list">
+          <div class="client-logo">HR Insulations</div>
+          <div class="client-logo">Minarva Grand</div>
+          <div class="client-logo">PSV Precast</div>
+          <div class="client-logo">Eastern Foundry</div>
+          <div class="client-logo">Kalyan Fabrics</div>
+          <div class="client-logo">Metro Logistics</div>
+          <div class="client-logo">HR Insulations</div>
+          <div class="client-logo">Minarva Grand</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details / About (on home) -->
+    <section class="section section--details" id="details">
+      <div class="container about-split">
+        <div class="about-split__visual reveal-left">
+          <img src="../asserts/bggg.png" alt="Industrial electrical team at work" loading="lazy">
+          <div class="about-split__badge">
+            <span class="about-split__badge-num">15+</span>
+            <span>Years of Excellence</span>
+          </div>
+          <div class="pulse-ring" aria-hidden="true"></div>
+        </div>
+        <div class="about-split__content reveal-right">
+          <span class="section__label">Who We Are</span>
+          <h2 class="section__title">Powering India's <span class="gradient-text">Industries</span></h2>
+          <p class="about-split__mission">
+            Srishasara PowerTech Solutions delivers mission-critical generator installation and electrical infrastructure with precision engineering and 24/7 support.
+          </p>
+          <ul class="feature-list">
+            <li class="feature-list__item">
+              <span class="feature-list__icon feature-list__icon--bolt" aria-hidden="true"></span>
+              <div>
+                <strong>Certified Installations</strong>
+                <p>Compliant with industrial safety and electrical standards.</p>
+              </div>
+            </li>
+            <li class="feature-list__item">
+              <span class="feature-list__icon feature-list__icon--tool" aria-hidden="true"></span>
+              <div>
+                <strong>End-to-End Service</strong>
+                <p>From site survey to commissioning and annual maintenance.</p>
+              </div>
+            </li>
+            <li class="feature-list__item">
+              <span class="feature-list__icon feature-list__icon--shield" aria-hidden="true"></span>
+              <div>
+                <strong>Emergency Response</strong>
+                <p>Rapid deployment for power failures and critical downtime.</p>
+              </div>
+            </li>
+          </ul>
+          <a href="about.html" class="btn btn--outline">Learn More About Us</a>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+
+      <div class="container testimonials-wrap">
+        <div class="section__header reveal-up">
+          <span class="section__label">Testimonials</span>
+          <h2 class="section__title">Trusted by <span class="gradient-text">Industry Leaders</span></h2>
+        </div>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card reveal-up">
+            <div class="testimonial-card__stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"The team at Srishasara delivered our 750 KVA installation with precision. They kept us informed every day and completed commissioning without any interruption to production."</p>
+            <footer>
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='16' r='10' fill='%2300e5ff'/%3E%3Cpath d='M14 38c0-8.8 7.2-16 16-16s16 7.2 16 16' stroke='%2337a3f3' stroke-width='4' fill='none'/%3E%3C/svg%3E" alt="Person icon" class="testimonial-card__avatar" width="48" height="48">
+              <div>
+                <cite>HR Insulations</cite>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card reveal-up">
+            <div class="testimonial-card__stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Their team handled the full power backup and ATS integration for Minarva Grand flawlessly. The response to our site queries was fast and personal, which made the whole project smooth."</p>
+            <footer>
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='16' r='10' fill='%2300e5ff'/%3E%3Cpath d='M14 38c0-8.8 7.2-16 16-16s16 7.2 16 16' stroke='%2337a3f3' stroke-width='4' fill='none'/%3E%3C/svg%3E" alt="Person icon" class="testimonial-card__avatar" width="48" height="48">
+              <div>
+                <cite>Minarva Grand</cite>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card reveal-up">
+            <div class="testimonial-card__stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Srishasara built our emergency power system with care and attention to detail. Their engineers proactively suggested improvements and the handover was clean and well documented."</p>
+            <footer>
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='16' r='10' fill='%2300e5ff'/%3E%3Cpath d='M14 38c0-8.8 7.2-16 16-16s16 7.2 16 16' stroke='%2337a3f3' stroke-width='4' fill='none'/%3E%3C/svg%3E" alt="Person icon" class="testimonial-card__avatar" width="48" height="48">
+              <div>
+                <cite>PSV Precast</cite>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact (on home) -->
+    <section class="section section--contact" id="contact">
+      <div class="section__grid-bg" aria-hidden="true"></div>
+      <div class="container contact-grid">
+        <div class="contact-info reveal-left">
+          <span class="section__label">Get In Touch</span>
+          <h2 class="section__title">Request a <span class="gradient-text">Free Quote</span></h2>
+          <p>Tell us about your facility. Our engineers respond within 24 hours with a tailored power solution.</p>
+          <ul class="contact-details">
+            <li>
+              <span class="contact-details__icon contact-details__icon--phone" aria-hidden="true"></span>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:+919908095558">+91 99080 95558</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-details__icon contact-details__icon--email" aria-hidden="true"></span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:srisahasrapowertechsolutions@outlook.com">srisahasrapowertechsolutions@outlook.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-details__icon contact-details__icon--location" aria-hidden="true"></span>
+              <div>
+                <strong>Location</strong>
+                <span>G Floor, D-73, Vamica Arcade, Madhuranagar, SR Nagar, HYD-500038.</span>
+              </div>
+            </li>
+          </ul>
+          <div class="contact-quick-actions">
+            <a href="https://wa.me/919908095558" class="btn btn--whatsapp" target="_blank" rel="noopener">WhatsApp Inquiry</a>
+            <a href="tel:+919908095558" class="btn btn--outline">Click to Call</a>
+          </div>
+        </div>
+        <form class="contact-form reveal-right" id="quoteForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+91">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@company.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="industry">Industry Type</label>
+            <select id="industry" name="industry" required>
+              <option value="">Select industry</option>
+              <option value="factory">Factory / Manufacturing</option>
+              <option value="hospital">Hospital / Healthcare</option>
+              <option value="office">Office / IT Campus</option>
+              <option value="other">Other Industrial</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Project Details</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Generator capacity, location, timeline..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Submit Quote Request</button>
+        </form>
+      </div>
+      <div class="map-placeholder reveal-up">
+        <div class="map-placeholder__inner">
+          <iframe
+            title="Srishasara PowerTech location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4123205745004!2d78.4340822746281!3d17.439968501289307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90dbca348e9f%3A0x9d9fee5184ebfbeb!2sG%20Floor%2C%20D-73%2C%20Vamika%20Arcade%2C%20Madhura%20Nagar%2C%20Hyderabad%2C%20Telangana%20500038!5e0!3m2!1sen!2sin!4v1779618658039!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            width="100%"
+            height="320"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__glow" aria-hidden="true"></div>
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="logo logo--footer">
+            <span class="logo__icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L8 12v16l12 8 12-8V12L20 4z" stroke="currentColor" stroke-width="1.5"/><path d="M20 12v16M14 16h12" stroke="currentColor" stroke-width="1.5"/></svg></span>
+            <span class="logo__text"><strong>Srishasara</strong><small>PowerTech Solutions</small></span>
+          </a>
+          <p>Premium generator installation and industrial power infrastructure across India.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="https://wa.me/919908095558" aria-label="WhatsApp">W</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#installation">Generator Installation</a></li>
+            <li><a href="services.html#backup">Power Backup</a></li>
+            <li><a href="services.html#maintenance">Maintenance</a></li>
+            <li><a href="services.html#emergency">Emergency Power</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+919908095558">+91 99080 95558</a></li>
+            <li><a href="mailto:srisahasrapowertechsolutions@outlook.com">srisahasrapowertechsolutions@outlook.com</a></li>
+            <li>Mon-Sat: 8AM - 8PM</li>
+            <li>G Floor, D-73, Vamica Arcade, Madhuranagar, SR Nagar, HYD-500038.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Srishasara PowerTech Solutions. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919908095558" class="fab fab--whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.89-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+  <a href="tel:+919908095558" class="fab fab--call" aria-label="Call us">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>
+
+
